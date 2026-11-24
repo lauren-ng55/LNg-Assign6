@@ -8,8 +8,11 @@ and categories, as well as browse books by category and author. Users can also
 add new books, delete existing books and update book prices.
 
 To create and populate the database, enter the following lines in the terminal:
+
 sqlite3 bookstore.db < createTables.sql
+
 sqlite3 bookstore.db < insertRows.sql
 
 To run the Python program, enter the following line in the terminal:
+
 python3 bookstore_cli.py 
